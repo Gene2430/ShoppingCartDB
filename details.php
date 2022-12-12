@@ -66,15 +66,16 @@
                                         </p>
                                         <hr>
                                         <input type="hidden" name="cartkey" value="<?php echo $_GET['itemkey']; ?>">
-                                        <label ><h4>Select Color:</h4></label><br>
-                                        <input type="radio" name="radColor" id="radBlack" value="Black" checked>
-                                        <label for="radBlack">Black</label>
-                                        <input type="radio" name="radColor" id="radRed" value="Red">
-                                        <label for="radRed">Red</label>
-                                        <input type="radio" name="radColor" id="radGreen" value="Green">
-                                        <label for="radGreen">Green</label>
-                                        <input type="radio" name="radColor" id="radBlue" value="Blue">
-                                        <label for="radBlue">Blue</label>
+                                        <input type="radio" name="radColor" id="radColor1" value="14oz" checked>
+                                        <label for="radColor1">14oz</label>
+                                        <input type="radio" name="radColor" id="radColor2" value="18oz">
+                                        <label for="radColor2">18oz</label>
+                                        <input type="radio" name="radColor" id="radColor3" value="22oz">
+                                        <label for="radColor3">22oz</label>
+                                        <input type="radio" name="radColor" id="radColor4" value="32oz">
+                                        <label for="radColor4">32oz</label>
+                                        <input type="radio" name="radColor" id="radColor5" value="40oz">
+                                        <label for="radColor5">40oz</label>
                                         <hr>
                                         <label for=""><h4>Enter Quantity:</h4></label><br>
                                         <input type="number" name="qty" id="qty" placeholder="0" min="1" max="100" class="form-control" required><br>

@@ -85,7 +85,7 @@
                     </div>
                     <div class="col-sm-4 well">
                         <div class="panel-body">
-                            <h1>Total Products Sold</h1>
+                            <h1>Total Products on Cart</h1>
                             <button class="btn btn-primary" type="button">
                                 <?php echo (isset($_SESSION['totalQuantity']) ? $_SESSION['totalQuantity'] : "0"); ?>
                             </button>

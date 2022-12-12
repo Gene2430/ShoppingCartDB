@@ -24,7 +24,7 @@ input[type=text] {
 	margin-top: 4px;
 	text-align: left;
 	color: #fff;
-	border-bottom: 1px solid #28a745;
+	border-bottom: 1px solid #859489;
 	background-color: transparent;
 	border-radius: 10px;
     transition: border-color 0.15s ease-in-out,
@@ -67,7 +67,7 @@ button:hover {
 	display: block;
 	margin-top: 5px;
 	padding: 10px;
-	background-color: #28a745;
+	background-color: #ebecec;
 	border: 0;
 	color: #fff;
 	border-radius: 10px;
